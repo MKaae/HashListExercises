@@ -1,3 +1,5 @@
+package dk.hashlistexercises.hashset1;
+
 import java.util.HashSet;
 
 public class HashSet1 {

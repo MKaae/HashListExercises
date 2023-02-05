@@ -1,4 +1,4 @@
-package dk.hashlistexercises.symmetricsetdiff;
+package dk.hashlistexercises.symmetricsetdiff11;
 
 import java.util.HashSet;
 
@@ -17,10 +17,20 @@ public class SymmetricSetDifference {
        add(7);
     }};
     public static void main(String[] args){
-        System.out.println(firstSet);
+        System.out.println(symmetricSetDifference(firstSet, secondSet));
     }
     public static HashSet<Integer> symmetricSetDifference(HashSet<Integer> setOne, HashSet<Integer> setTwo){
         HashSet<Integer> symmetricDiffSet = new HashSet<>();
+        for(Integer set1: setOne){
+            if(!setTwo.contains(set1)){
+                symmetricDiffSet.add(set1);
+            }
+        }
+        for(Integer set2: setTwo){
+            if(!setOne.contains(set2)){
+                symmetricDiffSet.add(set2);
+            }
+        }
         return symmetricDiffSet;
     }
 }

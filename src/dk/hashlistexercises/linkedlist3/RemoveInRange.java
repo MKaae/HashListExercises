@@ -1,3 +1,5 @@
+package dk.hashlistexercises.linkedlist3;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 
@@ -46,4 +48,7 @@ public class RemoveInRange {
         size--;
         recursiveRemove(size, tempList);
     }
+    /*
+    You can use an iterator instead and get less time complexity just wanted to use recursive for fun.
+     */
 }

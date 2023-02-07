@@ -1,9 +1,10 @@
 package dk.hashlistexercises.maxlength8;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class MaxLength {
-    static HashSet<String> setOfStrings = new HashSet<>(){{
+    static Set<String> setOfStrings = new HashSet<>(){{
        add("ContentLength0");
        add("ContentLength000");
        add("ContentLength00000");
@@ -13,7 +14,7 @@ public class MaxLength {
     public static void main(String[] args){
         System.out.println(maxLength(setOfStrings));
     }
-    public static int maxLength(HashSet<String> stringSet){
+    public static int maxLength(Set<String> stringSet){
         int tempStringLength = 0;
         if(stringSet.isEmpty()){
             return 0;

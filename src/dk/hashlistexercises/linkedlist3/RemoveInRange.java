@@ -2,9 +2,10 @@ package dk.hashlistexercises.linkedlist3;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class RemoveInRange {
-    static LinkedList<Integer> listOfNumbers = new LinkedList<>(){{
+    static List<Integer> listOfNumbers = new LinkedList<>(){{
         add(0);
         add(0);
         add(2);
@@ -28,8 +29,8 @@ public class RemoveInRange {
         removeInRange(listOfNumbers, 0, 5, 13);
         System.out.println(listOfNumbers);
     }
-    public static void removeInRange(LinkedList<Integer> list, int elementValue, int startingIndex, int endingIndex){
-        ArrayList<Integer> tempList = new ArrayList<>();
+    public static void removeInRange(List<Integer> list, int elementValue, int startingIndex, int endingIndex){
+        List<Integer> tempList = new ArrayList<>();
         for(int index = startingIndex; index < endingIndex; index++){
             if(list.get(index) == elementValue){
                 tempList.add(index);
@@ -37,7 +38,7 @@ public class RemoveInRange {
         }
         recursiveRemove(tempList.size(), tempList);
     }
-    public static void recursiveRemove(int size, ArrayList<Integer> tempList){
+    public static void recursiveRemove(int size, List<Integer> tempList){
         int tempSize = size-1;
         if(size == 0){
             return;

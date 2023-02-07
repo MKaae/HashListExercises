@@ -1,11 +1,9 @@
 package dk.hashlistexercises.sortandremove5;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedList;
+import java.util.*;
 
 public class SortAndRemoveDuplicates {
-    static LinkedList<Integer> listOfNumebrs = new LinkedList<>(){{
+    static List<Integer> listOfNumebrs = new LinkedList<>(){{
         add(7);
         add(4);
         add(-9);
@@ -24,8 +22,8 @@ public class SortAndRemoveDuplicates {
         sortAndRemoveDuplicates(listOfNumebrs);
         System.out.println(listOfNumebrs);
     }
-    public static void sortAndRemoveDuplicates(LinkedList<Integer> unsortedList){
-        HashSet<Integer> removedDuplicates = new HashSet<>(unsortedList);
+    public static void sortAndRemoveDuplicates(List<Integer> unsortedList){
+        Set<Integer> removedDuplicates = new HashSet<>(unsortedList);
         listOfNumebrs.clear();
         listOfNumebrs.addAll(removedDuplicates);
         Collections.sort(listOfNumebrs);

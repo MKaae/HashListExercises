@@ -2,9 +2,10 @@ package dk.hashlistexercises.partition4;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 
 public class Partition {
-    static LinkedList<Integer> listOfNumbers = new LinkedList<>() {{
+    static List<Integer> listOfNumbers = new LinkedList<>() {{
         add(15);
         add(1);
         add(6);
@@ -24,7 +25,7 @@ public class Partition {
         partition(listOfNumbers, valueE);
         System.out.println(listOfNumbers);
     }
-    public static void partition(LinkedList<Integer> inputList, int valueE){
+    public static void partition(List<Integer> inputList, int valueE){
         LinkedList<Integer> refactoredList = new LinkedList<>();
         Iterator<Integer> splitIterator = inputList.iterator();
         int nextIteration;

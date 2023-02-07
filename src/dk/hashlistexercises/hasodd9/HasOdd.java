@@ -1,9 +1,10 @@
 package dk.hashlistexercises.hasodd9;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class HasOdd {
-    static HashSet<Integer> integerHashSet = new HashSet<>(){{
+    static Set<Integer> integerHashSet = new HashSet<>(){{
        add(2);
        add(4);
        add(6);
@@ -13,7 +14,7 @@ public class HasOdd {
     public static void main(String[] args){
         System.out.println(hasOdd(integerHashSet));
     }
-    public static boolean hasOdd(HashSet<Integer> intSet){
+    public static boolean hasOdd(Set<Integer> intSet){
         if(intSet.isEmpty()){
             return false;
         }

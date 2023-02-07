@@ -2,9 +2,10 @@ package dk.hashlistexercises.isunique13;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 public class IsUnique {
-    static HashMap<String,String> stringHashMap = new HashMap<>(){{
+    static Map<String,String> stringHashMap = new HashMap<>(){{
        put("Marty", "Stepp");
        put("Stuart", "Reges");
        put("Jessica", "Miller");
@@ -14,7 +15,7 @@ public class IsUnique {
     public static void main(String[] args){
         System.out.println(isUnique(stringHashMap));
     }
-    public static boolean isUnique(HashMap<String,String> hashMapInput){
+    public static boolean isUnique(Map<String,String> hashMapInput){
         HashSet<String> tempSet = new HashSet<>(hashMapInput.values());
         if(tempSet.size() == hashMapInput.values().size()){
             return true;

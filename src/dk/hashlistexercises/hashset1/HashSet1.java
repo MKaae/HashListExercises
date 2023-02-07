@@ -1,10 +1,11 @@
 package dk.hashlistexercises.hashset1;
 
 import java.util.HashSet;
+import java.util.Set;
 
 public class HashSet1 {
     public static void main(String[] args) {
-        HashSet<String> clients = new HashSet<>();
+        Set<String> clients = new HashSet<>();
         clients.add("John");
         clients.add("John");
         clients.add("Matt");

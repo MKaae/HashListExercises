@@ -2,9 +2,10 @@ package dk.hashlistexercises.maxoccurrences15;
 
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
 
 public class MaxOccurrences {
-    static LinkedList<Integer> listOfInts = new LinkedList<>(){{
+    static List<Integer> listOfInts = new LinkedList<>(){{
        add(1);
        add(2);
        add(5);
@@ -17,7 +18,7 @@ public class MaxOccurrences {
     public static void main(String[] args){
         System.out.println(maxOccurrences(listOfInts));
     }
-    public static int maxOccurrences(LinkedList<Integer> list){
+    public static int maxOccurrences(List<Integer> list){
         HashMap<Integer,Integer> tempHashMap = new HashMap<>();
         int mode = 0;
 

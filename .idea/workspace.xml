@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e430f7a-28b1-4a1e-8357-b88403207d2a" name="Changes" comment="">
+    <list default="true" id="7e430f7a-28b1-4a1e-8357-b88403207d2a" name="Changes" comment="Pushing all excersizes">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/containsthree12/ContainsThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/hashlistexercises/containsthree12/ContainsThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/countcommon7/CountCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/hashlistexercises/countcommon7/CountCommon.java" afterDir="false" />
@@ -14,7 +15,6 @@
       <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/linkedlist3/RemoveInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/hashlistexercises/linkedlist3/RemoveInRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/maxlength8/MaxLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/hashlistexercises/maxlength8/MaxLength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/maxoccurrences15/MaxOccurrences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/hashlistexercises/maxoccurrences15/MaxOccurrences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/partition/Partition.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/partition4/Partition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/hashlistexercises/partition4/Partition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/removeevenlength10/RemoveEvenLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/hashlistexercises/removeevenlength10/RemoveEvenLength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dk/hashlistexercises/sortandremove5/SortAndRemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dk/hashlistexercises/sortandremove5/SortAndRemoveDuplicates.java" afterDir="false" />
@@ -66,7 +66,18 @@
       <workItem from="1675454600998" duration="493000" />
       <workItem from="1675455362267" duration="5424000" />
       <workItem from="1675530776136" duration="7164000" />
+      <workItem from="1675596846181" duration="492000" />
+      <workItem from="1675755380218" duration="149000" />
+      <workItem from="1675758020156" duration="1945000" />
     </task>
+    <task id="LOCAL-00001" summary="Pushing all excersizes">
+      <created>1675596982651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675596982651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pushing all excersizes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing all excersizes" />
   </component>
 </project>

@@ -1,10 +1,11 @@
 package dk.hashlistexercises.intersect14;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 
 public class Intersect {
-    static HashMap<String,Integer> firstMap = new HashMap<>(){{
+    static Map<String,Integer> firstMap = new HashMap<>(){{
        put("Janet", 87);
        put("Logan", 62);
        put("Whitaker", 46);
@@ -14,7 +15,7 @@ public class Intersect {
        put("Kim", 52);
        put("Sylvia", 95);
     }};
-    static HashMap<String,Integer> secondMap = new HashMap<>(){{
+    static Map<String,Integer> secondMap = new HashMap<>(){{
        put("Logan", 62);
        put("Kim", 52);
        put("Whitaker", 52);
@@ -24,11 +25,11 @@ public class Intersect {
        put("Lisa", 83);
        put("Sylvia", 87);
     }};
-    public static void main(String[] args){
+    public static <Map> void main(String[] args){
         HashMap<String,Integer> updatedMap = new HashMap<>(intersect(firstMap,secondMap));
         System.out.println(updatedMap);
     }
-    public static HashMap<String,Integer> intersect(HashMap<String,Integer> map1, HashMap<String,Integer> map2){
+    public static HashMap<String,Integer> intersect(Map<String,Integer> map1, Map<String,Integer> map2){
         HashMap<String,Integer> newHashMap = new HashMap<>();
         for(String key: map1.keySet()){
             for(String key2: map2.keySet()){

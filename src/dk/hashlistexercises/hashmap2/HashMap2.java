@@ -1,11 +1,12 @@
 package dk.hashlistexercises.hashmap2;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
 public class HashMap2 {
-    static HashMap<String,Integer> storageMap = new HashMap<>();
+    static Map<String,Integer> storageMap = new HashMap<>();
 
     public static void main(String[] args) {
         generateWords();

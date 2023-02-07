@@ -2,9 +2,10 @@ package dk.hashlistexercises.removeevenlength10;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 
 public class RemoveEvenLength {
-    static HashSet<String> stringHashSet = new HashSet<>(){{
+    static Set<String> stringHashSet = new HashSet<>(){{
        add("ContentLengthEven1");
        add("ContentLengthOdd2");
        add("ContentLengthEven3");
@@ -16,7 +17,7 @@ public class RemoveEvenLength {
         removeEvenLength(stringHashSet);
         System.out.println(stringHashSet);
     }
-    public static void removeEvenLength(HashSet<String> strSet){
+    public static void removeEvenLength(Set<String> strSet){
         Iterator<String> setIterator = strSet.iterator();
         String iteration;
         while(setIterator.hasNext()){

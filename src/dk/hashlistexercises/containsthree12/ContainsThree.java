@@ -2,9 +2,11 @@ package dk.hashlistexercises.containsthree12;
 
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 public class ContainsThree {
-    static LinkedList<String> strList = new LinkedList<>(){{
+    static List<String> strList = new LinkedList<>(){{
        add("Content");
        add("Something");
        add("Something");
@@ -15,8 +17,8 @@ public class ContainsThree {
     public static void main(String[] args){
         System.out.println(contains3(strList));
     }
-    public static boolean contains3(LinkedList<String> list){
-        HashMap<String, Integer> tempHashMap = new HashMap<>();
+    public static boolean contains3(List<String> list){
+        Map<String, Integer> tempHashMap = new HashMap<>();
         for(String listOfStrings: list){
 
             if(tempHashMap.containsKey(listOfStrings)){
